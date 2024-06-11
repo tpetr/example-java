@@ -12,5 +12,8 @@ class Foo {
   public static void main(String... args) {
     System.out.println("Foo value: " + Foo.VALUE);
     System.out.println("Var value: " + Bar.VALUE_PLUS_ONE);
+
+    Bar b = new Bar();
+    System.out.println("Bar function(): " + b.myCrazyFunction());
   }
 }

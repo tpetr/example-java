@@ -1,8 +1,8 @@
 run: build
-	java -classpath . com/semgrep/Foo
+	java -classpath target com/semgrep/Foo
 
 build:
-	javac -d target -classpath . com/semgrep/*.java
+	javac -d target -classpath . src/com/semgrep/*.java
 
 clean:
 	rm -rf target
